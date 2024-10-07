@@ -15,9 +15,7 @@ export function OrderTableRow() {
             <span className="sr-only">Detalhes do Pedido</span>
           </Button>
         </DialogTrigger>
-        <DialogContent>
-
-        </DialogContent>
+        
       </Dialog>
     </TableCell>
     <TableCell className="font-mono text-xs font-medium">6516a51sd6a5</TableCell>
