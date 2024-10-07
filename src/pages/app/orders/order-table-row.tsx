@@ -1,15 +1,24 @@
 import { Button } from "@/components/ui/button";
+import { DialogTrigger } from "@/components/ui/dialog";
 import { TableCell, TableRow } from "@/components/ui/table";
+import { Dialog } from "@/components/ui/dialog";
 import { Search, ArrowRight, X } from "lucide-react";
 
 export function OrderTableRow() {
   return (
     <TableRow >
     <TableCell>
-      <Button variant="outline" size="xs">
-        <Search className="w-3 h-3" />
-        <span className="sr-only">Detalhes do Pedido</span>
-      </Button>
+      <Dialog>
+        <DialogTrigger asChild>
+          <Button variant="outline" size="xs">
+            <Search className="w-3 h-3" />
+            <span className="sr-only">Detalhes do Pedido</span>
+          </Button>
+        </DialogTrigger>
+        <DialogContent>
+
+        </DialogContent>
+      </Dialog>
     </TableCell>
     <TableCell className="font-mono text-xs font-medium">6516a51sd6a5</TableCell>
     <TableCell className="text-muted-foreground">Há 15 minutos</TableCell>
