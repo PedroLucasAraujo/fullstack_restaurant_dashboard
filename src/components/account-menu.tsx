@@ -25,6 +25,7 @@ export function AccountMenu() {
     useQuery({
       queryFn: getManagedRestaurant,
       queryKey: ["managedRestaurant"],
+      staleTime: Infinity,
     });
 
   return (
