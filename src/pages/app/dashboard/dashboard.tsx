@@ -4,7 +4,7 @@ import { MonthOrdersAmountCard } from "./month-orders-amount";
 import { DayOrdersAmountCard } from "./day-orders-amount";
 import { MonthCanceledOrdersAmountCard } from "./month-canceled-orders-amount";
 import { RevenueChart } from "./revenue-chart";
-import { PopularProductsChart } from "./popular-products";
+import { PopularProductsChart } from "./popular-products-chart";
 
 export function Dashboard() {
   return (
