@@ -44,7 +44,7 @@ export function OrderStatus({ status }: OrderStatusProps) {
       {["delivering", "processing"].includes(status) && (
         <span
           data-testid="badge"
-          className="h-2 w-2 rounded-full bg-amber-400"
+          className="h-2 w-2 rounded-full bg-amber-500"
         />
       )}
 
