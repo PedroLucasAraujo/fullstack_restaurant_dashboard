@@ -9,7 +9,7 @@ import {
 import { Button } from "./ui/button";
 import { Building, ChevronDown, LogOut } from "lucide-react";
 import { useMutation, useQuery } from "@tanstack/react-query";
-import { getProfile } from "@/api/getProfile";
+import { getProfile } from "@/api/get-profile";
 import { getManagedRestaurant } from "@/api/get-managed-restaurant";
 import { Skeleton } from "./ui/skeleton";
 import { Dialog, DialogTrigger } from "./ui/dialog";
