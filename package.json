@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@playwright/test": "^1.48.2",
     "@rocketseat/eslint-config": "^2.2.2",
     "@testing-library/jest-dom": "^6.6.2",
     "@testing-library/react": "^16.0.1",
