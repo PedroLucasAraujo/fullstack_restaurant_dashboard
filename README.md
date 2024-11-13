@@ -1,5 +1,11 @@
 # Restaurant Dashboard for Delivery
 
+
+![68747470733a2f2f692e696d6775722e636f6d2f4858744e7431352e706e67](https://github.com/user-attachments/assets/651810b0-b269-42e1-94d4-87cb95ca269e)
+![68747470733a2f2f692e696d6775722e636f6d2f574d574a5939782e706e67](https://github.com/user-attachments/assets/788c1ad1-29c8-4b79-a18d-64cfa7c875b6)
+![68747470733a2f2f692e696d6775722e636f6d2f356875744c6c652e706e67](https://github.com/user-attachments/assets/d39fb43a-1ee5-41bb-bc2c-dfe358b3aa9a)
+
+
 This project was developed for merchants who operate restaurants in a delivery format, such as those found on platforms like iFood. The main goal is to provide an intuitive and robust interface to monitor and manage restaurant performance through detailed metrics and practical features.
 
 ---
